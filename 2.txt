@@ -9,3 +9,9 @@ database 数据库
 客户-> 实例: To entity
 客户-> 数据库 : To database
 @enduml
+
+@startuml
+小白 -> 老白 : 你好
+老白 -> 老白 : 怎么回事？
+老白 -> 小白 : 不是很好
+@enduml
