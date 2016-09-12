@@ -1,0 +1,11 @@
+@startuml
+actor 客户
+boundary 边界
+control 控制器
+entity 实例
+database 数据库
+客户-> 边界: To boundary
+客户-> 控制器: To control
+客户-> 实例: To entity
+客户-> 数据库 : To database
+@enduml
