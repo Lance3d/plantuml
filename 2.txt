@@ -5,7 +5,7 @@ control 控制器
 entity 实例
 database 数据库
 客户-> 边界: 到边界的
-客户-> 控制器: To control
+客户-> 控制器: 到控制器的
 客户-> 实例: To entity
 客户-> 数据库 : To database
 @enduml
